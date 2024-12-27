@@ -7,13 +7,12 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .main {
     height: 30rem;
-    padding-top: 1rem;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png);
     background-size: cover;
 
