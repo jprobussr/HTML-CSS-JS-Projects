@@ -123,10 +123,11 @@ body {
 
 .checkmark {
   display: block;
-  width: 80px;
-  height: 80px;
-  background-color: #ddd;
+  width: 40px;
+  height: 60px;
+  background-color: transparent;
   border-radius: 10px;
+  border: 1px solid coral;
   position: relative;
   transition: background-color 0.4s;
 }
@@ -138,8 +139,8 @@ body {
 .checkmark::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 45px;
+  width: 10px;
+  height: 25px;
   border-right: 5px solid #fff;
   border-bottom: 5px solid #fff;
   top: 40%;
