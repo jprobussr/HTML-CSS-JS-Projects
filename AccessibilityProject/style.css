@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meme-container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-image: url(./lazy-days.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin: 30px auto;
+    border: 3px solid black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #999; 
+}
+
+.meme-text {
+    background-color: rgba(11, 11, 11, 0.838);
+    padding: 10px 20px;
+    color: aliceblue;
+    width: 250px;
+    border-radius: 0.5rem 0 0 0;
+    font-size: 1rem;
+    margin: auto 0 0 auto;
+}

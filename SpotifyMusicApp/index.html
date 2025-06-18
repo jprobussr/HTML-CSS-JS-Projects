@@ -19,7 +19,7 @@
   <body>
     <div class="container">
       <div class="player">
-
+        
         <div class="player-top">
           <button class="player-btn" type="button">
             <i class="fa-solid fa-arrow-left"></i>
@@ -31,55 +31,59 @@
         </div>
 
         <div class="player-body">
-            <div class="current-song">
-                <div class="cover">
-                    <span>King Canyon</span>
-                    <span>Mulholland</span>
-                </div>
+          <div class="current-song">
+            <div class="cover">
+              <span>King Canyon</span>
+              <span>Mulholland</span>
             </div>
+          </div>
+        </div>
+
+
+        <div class="song-info">
+          <div class="song-details">
+            <span class="song-name">Mulholland</span>
+            <span class="song-artist">King Canyon</span>
+          </div>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+
+        <div class="song-duration">
+          <div class="song-time">
+            <div class="song-progress">
+              <audio src="./music/summer.mp3" class="audio"></audio>
+            </div>
+          </div>
+          <div class="time">
+            <span>0:00</span>
+            <span>0:00</span>
+          </div>
         </div>
 
         
-        <div class="song-info">
-            <div class="song-details">
-                <span class="song-name">Mulholland</span>
-                <span class="song-artist">King Canyon</span>
-            </div>
-            <i class="fa-solid fa-heart"></i>
-        </div>
-        <div class="song-duration">
-            <div class="song-time">
-                <div class="song-progress">
-                    <audio  class="audio" src="./music/summer.mp3"></audio>
-                </div>
-            </div>
-            <div class="time">
-                <span>0:00</span>
-                <span>0:00</span>
-            </div>
+        <div class="controls">
+          <button class="player-btn" type="button">
+            <i class="fa-solid fa-shuffle"></i>
+          </button>
+          <button class="player-btn prev-btn" type="button">
+            <i class="fa-solid fa-backward"></i>
+          </button>
+          <button class="player-btn play-pause" type="button">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button class="player-btn next-btn" type="button">
+            <i class="fa-solid fa-forward"></i>
+          </button>
+          <button class="player-btn" type="button">
+            <i class="fa-solid fa-repeat"></i>
+          </button>
         </div>
 
-        <div class="controls">
-            <button class="player-btn" type="button">
-                <i class="fa-solid fa-shuffle"></i>
-            </button>
-            <button class="player-btn prev-btn" type="button">
-                <i class="fa-solid fa-backward"></i>
-            </button>
-            <button class="player-btn play-pause" type="button">
-                <i class="fa-solid fa-play"></i>
-            </button>
-            <button class="player-btn next-btn" type="button">
-                <i class="fa-solid fa-forward"></i>
-            </button>
-            <button class="player-btn" type="button">
-                <i class="fa-solid fa-repeat"></i>
-            </button>
-        </div>
         <div class="player-footer">
-            <i class="fa-solid fa-music"></i>
-            <span>Listen to Spotify Music</span>
-            <i class="fa-solid fa-list"></i>
+          <i class="fa-solid fa-music"></i>
+          <span>Listen to Spotify Music</span>
+          <i class="fa-solid fa-list"></i>
         </div>
       </div>
     </div>
