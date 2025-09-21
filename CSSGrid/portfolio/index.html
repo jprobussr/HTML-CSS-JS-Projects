@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>John Probus — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header / CTA banner -->
+    <header class="site-header">
+      <div class="container header__row">
+        <a class="brand" href="#">JP<span class="brand__dot">•</span></a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#projects" class="nav__link">Projects</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#contact" class="nav__link">Contact</a>
+        </nav>
+
+        <a class="btn btn--primary" href="#projects">Check it out</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Intro -->
+      <section class="intro">
+        <div class="container">
+          <h1 class="intro__title">Exclusive Front-End Originals</h1>
+          <p class="intro__lead">
+            A curated set of projects built with modern JavaScript, TypeScript,
+            and React. Crafted to be clean, responsive, and fast.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Grid (CSS Grid) -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="projects__grid">
+            <!-- Card -->
+            <article class="card">
+              <figure class="card__media">
+                <img src="../images/plastics.jpg" alt="Project 1 preview" />
+              </figure>
+              <header class="card__header">
+                <h3 class="card__title">Trail &amp; Timber</h3>
+                <p class="card__meta">React · TypeScript</p>
+              </header>
+              <a
+                class="card__action"
+                href="#"
+                aria-label="View Trail & Timber project"
+              >
+                View Project
+              </a>
+            </article>
+
+            <article class="card">
+              <figure class="card__media">
+                <img src="../images/nano.jpg" alt="Project 2 preview" />
+              </figure>
+              <header class="card__header">
+                <h3 class="card__title">Chef Claude</h3>
+                <p class="card__meta">Vite · API · UI</p>
+              </header>
+              <a class="card__action" href="#">View Project</a>
+            </article>
+
+            <article class="card">
+              <figure class="card__media">
+                <img src="../images/crystals.jpg" alt="Project 3 preview" />
+              </figure>
+              <header class="card__header">
+                <h3 class="card__title">Flashcards</h3>
+                <p class="card__meta">React · State</p>
+              </header>
+              <a class="card__action" href="#">View Project</a>
+            </article>
+
+            <article class="card">
+              <figure class="card__media">
+                <img src="../images/asteroid.jpg" alt="Project 4 preview" />
+              </figure>
+              <header class="card__header">
+                <h3 class="card__title">Pizza Orders (TS)</h3>
+                <p class="card__meta">TypeScript · DS</p>
+              </header>
+              <a class="card__action" href="#">View Project</a>
+            </article>
+
+            <!-- Add as many cards as you like… keep the same structure -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Simple About -->
+      <section id="about" class="about">
+        <div class="container about__wrap">
+          <img
+            class="about__img"
+            src="../images/physics.jpg"
+            alt="John Probus portrait"
+          />
+          <div>
+            <h2>About Me</h2>
+            <p>
+              Front-End developer focused on accessible, performance-minded
+              interfaces. I enjoy JS/TS, React 19, and modern CSS
+              (Grid/Flexbox). Currently building polished, real-world UI pieces.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Get in touch</h2>
+          <p>
+            <a class="btn btn--ghost" href="mailto:you@example.com">Email me</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small
+          >© <span id="year"></span> John Probus. All rights reserved.</small
+        >
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
