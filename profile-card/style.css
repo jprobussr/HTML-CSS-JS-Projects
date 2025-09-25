@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #051321;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 40rem;
+  background-color: #1f1e1e;
+}
+
+.card-bio {
+  background-color: #45a564;
+  padding: 3rem 3rem 8rem 3rem;
+  display: flex;
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+}
+
+.img-wrapper {
+  width: 9rem;
+  height: 9rem;
+  margin-right: 3rem;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person-info {
+  width: 60%;
+  font-family: 'Dosis', serif;
+  color: #fff;
+  text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.person-info h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.person-info p {
+    font-size: 1.8rem;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: -2.5rem;
+  right: 10rem;
+  width: 20rem;
+  height: 6rem;
+  background-color: #2b303a;
+  color: #fff;
+  border-radius: 5rem;
+  border: none;
+  font-family: 'Dosis', serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.card-contact {
+    background-color: #2d814d;
+}
